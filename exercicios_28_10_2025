@@ -1,0 +1,38 @@
+1. Qual é o comportamento principal da interface Queue utilizada no código?
+c) Os elementos seguem a política FIFO (primeiro a entrar, primeiro a sair).
+
+
+2. Qual será a primeira linha de saída exibida no console ao executar o programa?
+b) --- Adicionando Clientes ---
+
+
+3. Qual método é utilizado para remover o elemento do início da fila sem lançar exceção se a fila estiver vazia?
+b) poll()
+
+
+4. O método peek() remove o elemento do início da fila?
+b) Não, ele apenas visualiza o primeiro elemento sem removê-lo.
+
+
+5. Qual é a diferença entre os métodos add() e offer() na interface Queue?
+c) add() pode lançar exceção se a fila estiver cheia, enquanto offer() retorna false.
+
+
+6. Qual seria a substituição correta da linha de instância da fila para usar ArrayDeque?
+a) Queue<String> filaDeClientes = new ArrayDeque<>();
+
+
+7. O que acontece se tentarmos inserir null na fila implementada com ArrayDeque?
+b) O programa lança uma exceção NullPointerException.
+
+
+8. Qual é o comportamento esperado de um método atenderTodos(Queue<String> fila) que usa poll() em um laço até a fila ficar vazia?
+c) Remover e imprimir todos os clientes até a fila esvaziar.
+
+
+9. Qual seria o resultado final impresso da fila após as três chamadas a poll() no código?
+c) [] (fila vazia)
+
+
+10. Em relação ao método isEmpty(), qual das alternativas é verdadeira?
+c) Retorna true apenas quando todos os elementos foram removidos.
